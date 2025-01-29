@@ -28,14 +28,14 @@ docker run --rm \
     composer install --ignore-platform-reqs
 ```
 
-### 4. Iniciar os Containers
-```
-vendor/bin/sail up -d
-```
-
-### 5. Gerar o Arquivo `.env`
+### 4. Gerar o Arquivo `.env`
 ```
 cp .env.example .env
+```
+
+### 5. Iniciar os Containers
+```
+vendor/bin/sail up -d
 ```
 
 ### 6. Gerar a Chave de Acesso
